@@ -1,0 +1,62 @@
+---
+title: "read_scRNA_data_seurat_MGA"
+author: "Miquel Gratacós i Aurich"
+date: "2024-02-19"
+output: html_document
+---
+
+```{r install pkgs, message=TRUE, warning=FALSE, include=FALSE}
+library(Seurat)
+library(Matrix)
+library(singleCellTK)
+```
+
+Seguint el codi que em vas passar, vaig veure que era replicar tota l'estona el mateix per tal de carregar les matrius dels 4 timepoints, llavors vaig decidir intentar provar d'automatitzar-ho amb un bucle, per tal de que fos més fàcil de carregar:
+
+```{r pujar-ho tot}
+folders <- c("J21","J14","J7","J2","J0") # Nom de les carpetes que haurem d'entrar, s'ha de posar en aquest ordre perquè es carreguin correctament
+
+matrix_list <- list()  # Creem la llista a on es pujaran J0, J2, J7 i J21
+
+# Creem el bucle
+for (folder in folders) {
+	# Construïm la ruta completa a la carpeta
+	matrix_dir <- file.path("data/input/", folder, "sample_feature_bc_matrix")
+	
+	# Construïm les rutes dels arxius dins les carpetes
+	barcod.path <- file.path(matrix_dir, "barcodes.tsv.gz")
+	features.path <- file.path(matrix_dir, "features.tsv.gz")
+	matrix.path <- file.path(matrix_dir, "matrix.mtx.gz")
+	
+	# Carreugem les dades de la carpeta actual
+	j0 <- readMM(file = matrix.path)
+	feature.names <- read.delim(features.path,
+															header = F,
+															stringsAsFactors = F)
+	barcode.names <- read.delim(barcod.path,
+															header = F,
+															stringsAsFactors = F)
+	colnames(j0) = barcode.names$V1
+	rownames(j0) = feature.names$V2
+	
+	# Eliminem files/gens duplicats
+	j0fin <- dedupRowNames(j0, as.rowData = F, return.list = F)
+	
+	# Emmagatzemem la matriu a la llista corresponent
+	matrix_list[[folder]] <- j0fin
+}
+```
+
+Guardo l'objecte `matrix_list`:
+
+```{r}
+dir.create("./saved_objects")
+
+saveRDS(matrix_list, "./saved_objects/matrix_list.rds")
+```
+
+Amb el següent `chunk` torno a carregar la llista creada prèviament:
+
+```{r}
+matrix_list <- readRDS("./saved_objects/matrix_list.rds")
+```

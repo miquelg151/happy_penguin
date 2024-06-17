@@ -1,0 +1,202 @@
+[2024-05-21 19:14:27] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:14:27] [INFO]    [OmnipathR] Initialized cache: `C:\Users\mique\AppData\Local\cache\OmnipathR`.
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/mique/OneDrive/Escritorio/Documents/07_Universitat/master_bioinfo/MGA_TFM_UOC_2023-2024_28022024/renv/library/R-4.3/x86_64-w64-mingw32/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/mique/OneDrive/Escritorio/Documents/07_Universitat/master_bioinfo/MGA_TFM_UOC_2023-2024_28022024/renv/library/R-4.3/x86_64-w64-mingw32/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/mique/OneDrive/Escritorio/Documents/07_Universitat/master_bioinfo/MGA_TFM_UOC_2023-2024_28022024/renv/library/R-4.3/x86_64-w64-mingw32/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] Reading JSON from `C:/Users/mique/OneDrive/Escritorio/Documents/07_Universitat/master_bioinfo/MGA_TFM_UOC_2023-2024_28022024/renv/library/R-4.3/x86_64-w64-mingw32/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2024-05-21 19:14:27] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:53] [INFO]    [OmnipathR] Loading database `Ensembl and OMA organism names`.
+[2024-05-21 19:49:53] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:53] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:53] [INFO]    [OmnipathR] Looking up in cache `https://www.ensembl.org/info/about/species.html`: key=7332486db7400730697234bad76ca0c8e4d00799, no version available.
+[2024-05-21 19:49:53] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:53] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:53] [INFO]    [OmnipathR] Created new version for cache record 7332486db7400730697234bad76ca0c8e4d00799: version 1.
+[2024-05-21 19:49:53] [TRACE]   [OmnipathR] Cache file path: C:\Users\mique\AppData\Local\cache\OmnipathR/7332486db7400730697234bad76ca0c8e4d00799-1.html
+[2024-05-21 19:49:53] [INFO]    [OmnipathR] Retrieving URL: `https://www.ensembl.org/info/about/species.html`
+[2024-05-21 19:49:53] [TRACE]   [OmnipathR] Attempt 1/3: `https://www.ensembl.org/info/about/species.html`
+[2024-05-21 19:49:54] [TRACE]   [OmnipathR] HTTP 200
+[2024-05-21 19:49:54] [INFO]    [OmnipathR] Download ready [key=7332486db7400730697234bad76ca0c8e4d00799, version=1]
+[2024-05-21 19:49:54] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:54] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:54] [INFO]    [OmnipathR] Cache item `7332486db7400730697234bad76ca0c8e4d00799` version 1: status changed from `unknown` to `ready`.
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] Looking up in cache: `https://omabrowser.org/All/oma-species.txt`.
+[2024-05-21 19:49:55] [INFO]    [OmnipathR] Cache record does not exist: `https://omabrowser.org/All/oma-species.txt`
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] Could not find in cache, initiating download: `https://omabrowser.org/All/oma-species.txt`.
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:55] [INFO]    [OmnipathR] Cache item `30e690cbb55dfc63b5903ab337f34ffc2f4be397` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2024-05-21 19:49:55] [INFO]    [OmnipathR] Retrieving URL: `https://omabrowser.org/All/oma-species.txt`
+[2024-05-21 19:49:55] [TRACE]   [OmnipathR] Attempt 1/3: `https://omabrowser.org/All/oma-species.txt`
+[2024-05-21 19:49:57] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2024-05-21 19:49:57] [INFO]    [OmnipathR] Download ready [key=30e690cbb55dfc63b5903ab337f34ffc2f4be397, version=1]
+[2024-05-21 19:49:57] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:57] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:57] [INFO]    [OmnipathR] Cache item `30e690cbb55dfc63b5903ab337f34ffc2f4be397` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:49:57] [INFO]    [OmnipathR] Loaded database `Ensembl and OMA organism names`.
+[2024-05-21 19:49:58] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:49:58] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:58] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:58] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:58] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:58] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:58] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:58] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:58] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:59] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Guide2Pharma,HPMR,ICELLNET,Kirouac2010,CellTalkDB,connectomeDB2020&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:59] [INFO]    [OmnipathR] Cache item `69503cb1a01671e7c77c0e80e6ca0ce4110a89fe` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/69503cb1a01671e7c77c0e80e6ca0ce4110a89fe-1.rds`.
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/69503cb1a01671e7c77c0e80e6ca0ce4110a89fe-1.rds`.
+[2024-05-21 19:49:59] [INFO]    [OmnipathR] Download ready [key=69503cb1a01671e7c77c0e80e6ca0ce4110a89fe, version=1]
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:49:59] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:49:59] [INFO]    [OmnipathR] Cache item `69503cb1a01671e7c77c0e80e6ca0ce4110a89fe` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:49:59] [SUCCESS] [OmnipathR] Downloaded 4568 interactions.
+[2024-05-21 19:50:00] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:50:00] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:00] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:00] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:00] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:00] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:00] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:00] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:00] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellPhoneDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Cache item `ec8c89037e2c920468342c7c2326c74a5474eedc` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/ec8c89037e2c920468342c7c2326c74a5474eedc-1.rds`.
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/ec8c89037e2c920468342c7c2326c74a5474eedc-1.rds`.
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Download ready [key=ec8c89037e2c920468342c7c2326c74a5474eedc, version=1]
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Cache item `ec8c89037e2c920468342c7c2326c74a5474eedc` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Converting JSON column `extra_attrs` to list.
+[2024-05-21 19:50:02] [SUCCESS] [OmnipathR] Downloaded 2879 interactions.
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:02] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:03] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&resources=Cellinker&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:03] [INFO]    [OmnipathR] Cache item `8173bc9dfc09711dc80f48d9c3c5bd57af3d8be5` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/8173bc9dfc09711dc80f48d9c3c5bd57af3d8be5-1.rds`.
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/8173bc9dfc09711dc80f48d9c3c5bd57af3d8be5-1.rds`.
+[2024-05-21 19:50:03] [INFO]    [OmnipathR] Download ready [key=8173bc9dfc09711dc80f48d9c3c5bd57af3d8be5, version=1]
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:03] [INFO]    [OmnipathR] Cache item `8173bc9dfc09711dc80f48d9c3c5bd57af3d8be5` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:50:03] [TRACE]   [OmnipathR] Converting JSON column `extra_attrs` to list.
+[2024-05-21 19:50:03] [SUCCESS] [OmnipathR] Downloaded 3765 interactions.
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&resources=talklr&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Cache item `b2de51666493a9c70a7b375972a2557903c14763` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/b2de51666493a9c70a7b375972a2557903c14763-1.rds`.
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/b2de51666493a9c70a7b375972a2557903c14763-1.rds`.
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Download ready [key=b2de51666493a9c70a7b375972a2557903c14763, version=1]
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:05] [INFO]    [OmnipathR] Cache item `b2de51666493a9c70a7b375972a2557903c14763` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:50:05] [TRACE]   [OmnipathR] Converting JSON column `extra_attrs` to list.
+[2024-05-21 19:50:05] [SUCCESS] [OmnipathR] Downloaded 2484 interactions.
+[2024-05-21 19:50:06] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:50:06] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:06] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:06] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:06] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:06] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:06] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:06] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:06] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:07] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&resources=CellChatDB&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=extra_attrs,sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:07] [INFO]    [OmnipathR] Cache item `fedf7fd37a8e863f804aa073f2ae480ff78001e5` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/fedf7fd37a8e863f804aa073f2ae480ff78001e5-1.rds`.
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/fedf7fd37a8e863f804aa073f2ae480ff78001e5-1.rds`.
+[2024-05-21 19:50:07] [INFO]    [OmnipathR] Download ready [key=fedf7fd37a8e863f804aa073f2ae480ff78001e5, version=1]
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:09] [INFO]    [OmnipathR] Cache item `fedf7fd37a8e863f804aa073f2ae480ff78001e5` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:50:09] [TRACE]   [OmnipathR] Converting JSON column `extra_attrs` to list.
+[2024-05-21 19:50:09] [SUCCESS] [OmnipathR] Downloaded 1894 interactions.
+[2024-05-21 19:50:10] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:50:10] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:10] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:10] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:10] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:10] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:10] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:10] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:10] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:11] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&resources=SignaLink3&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:11] [INFO]    [OmnipathR] Cache item `95ee739b50bbfea2c48e5c86a64525084a1dab30` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/95ee739b50bbfea2c48e5c86a64525084a1dab30-1.rds`.
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/95ee739b50bbfea2c48e5c86a64525084a1dab30-1.rds`.
+[2024-05-21 19:50:11] [INFO]    [OmnipathR] Download ready [key=95ee739b50bbfea2c48e5c86a64525084a1dab30, version=1]
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:11] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:11] [INFO]    [OmnipathR] Cache item `95ee739b50bbfea2c48e5c86a64525084a1dab30` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:50:12] [SUCCESS] [OmnipathR] Downloaded 1796 interactions.
+[2024-05-21 19:50:12] [TRACE]   [OmnipathR] Reading JSON from `https://omnipathdb.org/resources` (encoding: UTF-8).
+[2024-05-21 19:50:12] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:12] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:12] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:12] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:12] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:12] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:12] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:12] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:14] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/annotations?resources=SignaLink_function&license=academic`
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:14] [INFO]    [OmnipathR] Cache item `4190db12b9aabca9c0851ec84aa3fbb71b5dfbcd` version 1: status changed from `unknown` to `started`.
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] Exporting object to RDS: `C:\Users\mique\AppData\Local\cache\OmnipathR/4190db12b9aabca9c0851ec84aa3fbb71b5dfbcd-1.rds`.
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] Exported RDS to `C:\Users\mique\AppData\Local\cache\OmnipathR/4190db12b9aabca9c0851ec84aa3fbb71b5dfbcd-1.rds`.
+[2024-05-21 19:50:14] [INFO]    [OmnipathR] Download ready [key=4190db12b9aabca9c0851ec84aa3fbb71b5dfbcd, version=1]
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] Reading JSON from `C:\Users\mique\AppData\Local\cache\OmnipathR/cache.json` (encoding: UTF-8).
+[2024-05-21 19:50:14] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-05-21 19:50:14] [INFO]    [OmnipathR] Cache item `4190db12b9aabca9c0851ec84aa3fbb71b5dfbcd` version 1: status changed from `started` to `ready`.
+[2024-05-21 19:50:14] [SUCCESS] [OmnipathR] Downloaded 2001 annotation records.
