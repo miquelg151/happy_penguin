@@ -1,5 +1,4 @@
-## INTEGRATION ANALYSIS
-
+## INTEGRATION ANALYSIS - Script by Miquel Gratacós - Supervised by Laia Bassaganyas
 
 #pkgs
 library(Seurat)
@@ -235,34 +234,6 @@ liana_object<- liana_object %>%
 	liana_aggregate() %>%
 	# only keep interactions concordant between methods
 	filter(aggregate_rank <= 0.05)
-
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("0"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("1"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("2"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("3"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("4"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("5"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("6"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("7"))
-##liana_dotplot(liana_object,
-##							ntop = 10,
-##							source_groups = c("8"))
 
 
 heatmap_l<- heat_freq(liana_object)
